@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+// 银行卡上传
+div.identity {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+div.identity_bank {
+    width: 528px;
+    height: 359px;
+    border: 1px solid;
+    margin-top: 50px;
+    overflow: hidden;
+    img {
+        // width: inherit;
+        // height: inherit;
+        // object-fit: cover;
+        width: 91%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+}
+div.identity_upload {
+    width: 50%;
+    height: 300px;
+    margin-top: 50px;
+    p {
+        margin-top: 20px;
+        font-size: 14px;
+        &:nth-child(1) {
+            font-size: 18px;
+        }
+    }
+}
+input.picture {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+label.btn {
+    display: inline-block;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #497fd4;
+}
+div.result {
+    margin: 40px auto;
+    width: 80%;
+    height: 250px;
+    border: 1px solid;
+    font-size: 12px;
+    p {
+        padding: 15px 40px;
+        box-sizing: border-box;
+    }
+}
